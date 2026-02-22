@@ -1,0 +1,25 @@
+.area {
+ margin: 8rem;
+ padding-right: 5rem;
+}
+
+.option {
+ font-size: 20px;
+ color: #6c6e70;
+ cursor: pointer;
+ padding-bottom: 1.5rem;
+}
+
+.parag {
+ color: #798088;
+ cursor: pointer;
+ padding-bottom: 0.7rem;
+}
+
+.parag:hover {
+ color:#CA3500 ;
+}
+
+.end-line i {
+ padding-right: 2px;
+}
