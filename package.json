@@ -2,7 +2,7 @@
   "name": "historical-knowledge",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx @tailwindcss/cli -i ./input.css -o ./dist/output.css --minify"
+    "build": "npx -p @tailwindcss/cli tailwindcss -i ./input.css -o ./dist/output.css --minify"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.2.2",
