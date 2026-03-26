@@ -2,9 +2,10 @@
   "name": "historical-knowledge",
   "version": "1.0.0",
   "scripts": {
-    "build": "node ./node_modules/.bin/tailwindcss -i ./input.css -o ./dist/output.css --minify"
+    "build": "node ./node_modules/@tailwindcss/cli/lib/index.js -i ./input.css -o ./dist/output.css --minify"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.2.2",
     "tailwindcss": "^4.2.2"
   }
 }
